@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 4,
+      "name": "Subaşı",
+      "mail": "deef@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 1,
+      "name": "Muhammed",
+      "mail": "abc@example.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "name": "somename",
+      "email": "someemail@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "name": "mehmet",
+      "email": "memo@mail.com",
+      "password": "123456789"
+    },
+    {
+      "name": "ahmet",
+      "email": "asg@mail.com",
+      "password": "123459678",
+      "id": 7
+    },
+    {
+      "name": "zahit",
+      "email": "zht@mail.com",
+      "password": "zhtmail",
+      "id": 8
+    }
+  ]
+}
