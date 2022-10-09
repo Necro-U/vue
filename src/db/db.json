@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "ahmet",
+      "mail": "ahmt@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "zahit",
+      "mail": "zht@mail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "name": "Burak",
+      "mail": "brk@mail.com",
+      "password": "123456"
+    },
+    {
+      "name": "mahmut",
+      "mail": "mht@mail.com",
+      "password": "123456",
+      "id": "d_LyYYr"
+    },
+    {
+      "name": "enes",
+      "mail": "ens@mail.com",
+      "password": "1234234324",
+      "id": "Ogx4YI6"
+    },
+    {
+      "name": "mahmut esad",
+      "mail": "mesad@mail.com",
+      "password": "12343242343",
+      "id": "-IQlO1L"
+    },
+    {
+      "name": "sela",
+      "mail": "tuvessela@mail.com",
+      "password": "1234234234",
+      "id": "wkrqv3J"
+    },
+    {
+      "name": "sadık",
+      "mail": "sadık@mail.com",
+      "password": "ksdpofksdpds",
+      "id": "J-lP5Aj"
+    }
+  ]
+}
