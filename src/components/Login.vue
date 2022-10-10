@@ -1,13 +1,16 @@
 <template>
 <div class="login">
-<input type="email" placeholder="Enter your email">
-<input type="password" placeholder="Enter your password">
-<button>Login</button>
+<input type="email" v-model="mail" placeholder="Enter your email">
+<input type="password" v-model="password" placeholder="Enter your password">
+<button @click="login">Login</button>
 </div>
 </template>
 
 
 <script>
+import axios from 'axios';
+
+
 export default {
     name: 'Login',
     data(){
@@ -15,8 +18,24 @@ export default {
             mail:'',
             password:'',
         }
+    },
+    mounted(){
+        if(localStorage.getItem("user-data")){
+            this.$router.push({name:"Home"})
+        }
+    },
+
+    methods:{
+        async login(){
+            let result = await axios.get(`http://localhost:3000/users?mail=${this.mail}&password=${this.password}`)
+            if (result.status == 200 && result.data.length>0){
+                localStorage.setItem("user-data",JSON.stringify(result.data))
+                this.$router.push({name:'Home'})
+            }
+            console.log(result.data)
+        }
     }
-}
+} 
 </script>
 
 <style>

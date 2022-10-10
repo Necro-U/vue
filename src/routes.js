@@ -1,4 +1,4 @@
-import SignUp from './components/First.vue'
+ import SignUp from './components/SignUp.vue'
 import HomePage from './components/Homepage.vue'
 import Login from './components/Login.vue'
 import { createRouter,createWebHistory } from 'vue-router'

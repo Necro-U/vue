@@ -6,6 +6,9 @@
         <input v-model="e_mail" type="email" placeholder="Enter Your Mail" >
         <input v-model="password" type="password" placeholder="Enter Your Password" >
         <button @click="signUp" >Sign up</button>
+        <p>
+            if you already have an account <router-link to='/login'>Login</router-link>
+        </p>
     </div>
 </template>
 <script>
@@ -47,6 +50,11 @@
 
 
 <style>
+.register{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
 .register input{
     width: 400px;
     height: 40px;
@@ -66,5 +74,7 @@
     height: 40px;
     background-color: green;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }   
 </style>
